@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:improving_your_ui/home_page_bottom_navigation_bar.dart';
+import 'package:improving_your_ui/services/auth.dart';
+import 'package:improving_your_ui/sign_in/landing_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: BottomBarAppNavigator(),
+      home: LandingPage(
+        auth: Auth(),
+      ),
     );
   }
 }

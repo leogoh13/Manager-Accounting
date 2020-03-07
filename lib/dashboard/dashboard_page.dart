@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:improving_your_ui/dashboard/add_new_account_dialog.dart';
 import 'package:improving_your_ui/dashboard/dashboard_account_card.dart';
+import 'package:improving_your_ui/dashboard/drawer/dashboard_drawer.dart';
 
 class Dashboard extends StatefulWidget {
   @override
@@ -32,6 +33,7 @@ class _DashboardState extends State<Dashboard> {
             ),
           ],
         ),
+        drawer: DashBoardDrawer(),
         body: ListView(
           children: <Widget>[
             Container(

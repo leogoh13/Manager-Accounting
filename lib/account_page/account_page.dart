@@ -13,11 +13,11 @@ class AccountPage extends StatefulWidget {
   final List<TransactionData> transactionData;
 
   AccountPage({
-    this.iconColor,
     @required this.accountName,
-    this.appBarColor,
-    this.iconSize,
     @required this.transactionData,
+    this.iconSize,
+    this.iconColor,
+    this.appBarColor,
   });
 
   @override

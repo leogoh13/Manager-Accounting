@@ -74,7 +74,7 @@ class _BottomBarAppNavigatorState extends State<BottomBarAppNavigator> {
       buttonBackgroundColor: colors[_page],
       height: 60,
       animationDuration: Duration(milliseconds: 300),
-      animationCurve: Curves.easeInOut,
+      animationCurve: Curves.decelerate,
       index: widget.initState,
       items: _curvedNavigationBarItems,
       onTap: (index) {
