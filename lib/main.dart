@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:improving_your_ui/home_page_bottom_navigation_bar.dart';
 
+// TODO: Add a QR Scanner
+// TODO: Add a BMI Tracking Devices
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
